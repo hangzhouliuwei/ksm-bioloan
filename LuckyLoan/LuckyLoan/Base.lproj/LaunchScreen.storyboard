@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_launch_center" translatesAutoresizingMaskIntoConstraints="NO" id="xBN-GE-dHg">
+                                <rect key="frame" x="16" y="159" width="398" height="271"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="271" id="aXJ-fA-KSM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_launch_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="bfd-PH-fj4">
+                                <rect key="frame" x="76" y="693" width="278" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="b7u-Xl-YgC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy consumption" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ar3-ea-oWv">
+                                <rect key="frame" x="16" y="430" width="398" height="21.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21.670000000000002" id="YyI-c4-qoJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.12929707770000001" green="0.31429126860000001" blue="0.27058553699999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy consumption and pursue beautiful encounters in limited time" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6f-bW-6xL">
+                                <rect key="frame" x="36" y="451.66666666666669" width="358" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="swb-LF-iJx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.75868713860000003" green="0.79899519679999997" blue="0.85883325340000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ar3-ea-oWv" secondAttribute="trailing" constant="16" id="1aV-ZQ-yVV"/>
+                            <constraint firstItem="ar3-ea-oWv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="623-QY-blg"/>
+                            <constraint firstItem="bfd-PH-fj4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="EVD-M1-mm6"/>
+                            <constraint firstItem="xBN-GE-dHg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="EjB-hm-Tsm"/>
+                            <constraint firstItem="G6f-bW-6xL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="GCx-K8-Ifc"/>
+                            <constraint firstItem="ar3-ea-oWv" firstAttribute="top" secondItem="xBN-GE-dHg" secondAttribute="bottom" id="KLP-tz-JBY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G6f-bW-6xL" secondAttribute="trailing" constant="36" id="Mtw-7h-jdu"/>
+                            <constraint firstItem="xBN-GE-dHg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="W1v-U4-Fbl"/>
+                            <constraint firstItem="bfd-PH-fj4" firstAttribute="centerX" secondItem="G6f-bW-6xL" secondAttribute="centerX" id="cxI-n4-JNv"/>
+                            <constraint firstItem="G6f-bW-6xL" firstAttribute="top" secondItem="ar3-ea-oWv" secondAttribute="bottom" id="nyX-ZN-pxZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xBN-GE-dHg" secondAttribute="trailing" constant="16" id="oO4-M6-nmx"/>
+                            <constraint firstItem="xBN-GE-dHg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="pBr-CI-JJ4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bfd-PH-fj4" secondAttribute="bottom" constant="99" id="snd-yH-r6R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xBN-GE-dHg" secondAttribute="trailing" constant="16" id="uFv-tZ-S00"/>
+                            <constraint firstItem="xBN-GE-dHg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="znN-PM-gJ5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_launch_bottom" width="810" height="264"/>
+        <image name="img_launch_center" width="1053" height="879"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
